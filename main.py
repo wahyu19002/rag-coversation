@@ -16,7 +16,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-HF_TOKEN =st.secrets('HF_TOKEN')
+HF_TOKEN =st.secrets['HF_TOKEN']
 embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
 
 # stet up streamlit up
@@ -122,4 +122,5 @@ if uploaded_files:
         st.write("chat History:", session_history.messages)
 
 else:
+
     st.info("Silakan Upload file pdf dan mulai bertanya.")
