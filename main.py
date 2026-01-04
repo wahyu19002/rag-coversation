@@ -23,7 +23,7 @@ embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
 st.title("Conversational RAG with PDF uploads and chat history")
 st.write("Upload pdf's and chat with their content")
 
-api_key = st.secrets('GROQ_API_KEY')
+api_key = st.secrets['GROQ_API_KEY']
 llm=ChatGroq(groq_api_key=api_key, model_name="llama-3.3-70b-versatile")
 
 uploaded_files=st.file_uploader("Choose A PDF file", type="pdf", accept_multiple_files=True)
@@ -124,3 +124,4 @@ if uploaded_files:
 else:
 
     st.info("Silakan Upload file pdf dan mulai bertanya.")
+
