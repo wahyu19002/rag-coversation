@@ -18,4 +18,4 @@ untuk memberikan jawaban yang akurat berdasarkan konteks dokumen yang diunggah.
 - PDF Processing: PyPDFLoader
 
 **COBA DEMO APLIKASI DISINI**
-https://rag-coversation-8fifjsjenzszup6eeu8ka3.streamlit.app/
+https://rag-conversation-u8k2jksjyk8nbycqiccxdb.streamlit.app/
